@@ -1,6 +1,6 @@
-# github-training-2024
+# github-training
 
-Welcome to the 2024 AIAA GitHub Training! This exercise will go over setting up Git, Github CLI, initializing a repository, creating a branch, committing changes, and making contributions. Feel free to reach out to Shivam Patel ([@shivammpat](https://github.com/shivammpat)) if you have any issues!
+Welcome to the AIAA GitHub Training! This exercise will go over setting up Git, Github CLI, initializing a repository, creating a branch, committing changes, and making contributions. Feel free to reach out to Shivam Patel ([@shivammpat](https://github.com/shivammpat)) if you have any issues!
 
 We tried to make this training as foundational as possible, but you may need to brush up on your Python and Terminal skills. That said, I strongly discourage consulting tools like ChatGPT or Copilot. They will happily generate problematic nonsense that will make completing this exercise harder than it needs to be.
 
@@ -34,7 +34,7 @@ We tried to make this training as foundational as possible, but you may need to 
 
 ## Part 1: Cloning & Branching
 
-1. Now that you have Git and GitHub set up on your device, it's time to grab a hold of the files needed to actually complete the training. The code is stored in the cloud in a strucure called a *repository,* basically it's a special type of folder that stores all of your code and some additonal information so that Git can track changes. In this case, the repository is called [github-training-2024](https://github.com/Rutgers-RPL/github-training-2024). (You'll see that spaces are replaced with '-' or '_' in many places. It often helps to have names be one long word rather than many!)
+1. Now that you have Git and GitHub set up on your device, it's time to grab a hold of the files needed to actually complete the training. The code is stored in the cloud in a strucure called a *repository,* basically it's a special type of folder that stores all of your code and some additonal information so that Git can track changes. In this case, the repository is called [github-training](https://github.com/Rutgers-RPL/github-training). (You'll see that spaces are replaced with '-' or '_' in many places. It often helps to have names be one long word rather than many!)
 
 2. Navigate to whatever folder on your machine that you'd like to do RRPL coding projects in. You can even create a new folder. As an aside, the terms "folder" and "directory" mean the same thing. Open a terminal in this directory.
 
@@ -46,12 +46,12 @@ We tried to make this training as foundational as possible, but you may need to 
 4026123. The process of accessing the code stored on the cloud and putting it on your device is called *cloning.* Unlike other cloud tools like Google Drive or Microsoft OneDrive, the files in your workspace are not automatically synced with the remote (cloud) ones. So, when you download the code on you machine, your actually downloading a *copy* of the code you see online (hence, cloning). Let's clone our repository. You can clone using three different methods: HTTPS, SSH, or the GitHub CLI. In most cases, you'll want to use HTTPS or the GH CLI.
 
    ```Shell
-   gh repo clone Rutgers-RPL/github-training-2024
+   gh repo clone Rutgers-RPL/github-training
    ```
 
-   Note the different parts of the command above. First, we tell the terminal to use the `gh` (GitHub) executable. Then, we specify that we're going to perform some `repo`(sitory) operation, in this case `clone`. Then, we specify what were trying to clone. Here, notice that `Rutgers-RPL` is the owner of the repository and `github-training-2024` is the specific repository we're trying to clone.
+   Note the different parts of the command above. First, we tell the terminal to use the `gh` (GitHub) executable. Then, we specify that we're going to perform some `repo`(sitory) operation, in this case `clone`. Then, we specify what were trying to clone. Here, notice that `Rutgers-RPL` is the owner of the repository and `github-training` is the specific repository we're trying to clone.
 
-4. You can use the `ls` command to see that you've successfully cloned the `github-training-2024` repository. Here are some rather useful commands.
+4. You can use the `ls` command to see that you've successfully cloned the `github-training` repository. Here are some rather useful commands.
 
    ```Shell
    cd new_dir        # change current directory to "new_dir"
@@ -64,7 +64,7 @@ We tried to make this training as foundational as possible, but you may need to 
    touch your_file   # creates a new empty file called "file" (Linux Only)
    ```
 
-5. Now, that you've successfully cloned the repository. Navigate into it using `cd github-training-2024`. Using the `ls` command, you can see all of the files and folders you cloned from the remote repository. It should look something like this.
+5. Now, that you've successfully cloned the repository. Navigate into it using `cd github-training`. Using the `ls` command, you can see all of the files and folders you cloned from the remote repository. It should look something like this.
 
    ![Error Displaying Image!](./gfx/repo_contents.png "Repository Contents")
 
@@ -150,7 +150,7 @@ We tried to make this training as foundational as possible, but you may need to 
 
 4. We're now done with the local part of the training. Now, we need to go online in order to merge our changes into the main branch of code. In most team repositories, the main branch will be protected, meaning that is always in a functional state. Thus, we need to create a `pull request` in order to have our changes considered for merging. If the changes are approved, the branches will be merged and the changes will be pulled over into main.
 
-   1. Login to GitHub in another tab. Navigate to the [repository page](https://github.com/Rutgers-RPL/github-training-2024).
+   1. Login to GitHub in another tab. Navigate to the [repository page](https://github.com/Rutgers-RPL/github-training).
 
    2. Click on the branches drop down and select your branch.  
 
@@ -160,7 +160,7 @@ We tried to make this training as foundational as possible, but you may need to 
 
       ![Error Displaying Image!](./gfx/open-pr.png "Open Pull Request")
 
-   4. Write a brief description of your work and select Kashvi C (@KashviC) or Tyler A (@Sanddaman) as your reviewer.
+   4. Write a brief description of your work and select Mahir S (@MahirShah1) or Tyler A (@Sanddaman) as your reviewer.
 
       ![Error Displaying Image!](./gfx/create-pr.png "Create Pull Request")
 
