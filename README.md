@@ -26,7 +26,7 @@ We tried to make this training as foundational as possible, but you may need to 
     gh auth status
     ```
 
- 6. Discord DM a screen grab of the output of those commands to Kashvi C (kashibarmoo) or Tyler A (sandman444). It should look something like the following.
+ 6. Discord DM a screen grab of the output of those commands to Mahir S (MahirShah1) or Tyler A (sandman444). It should look something like the following.
 
     ![Error Displaying Image!](./gfx/verify_install.png "Installation Verification")
 
