@@ -1,4 +1,5 @@
 import sys # Please don't touch this
+from introductions import ayushpatel
 sys.path.append('./introductions') # or this (bonus points if you know why)
 
 # Put all imports below this line
@@ -27,3 +28,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    ayushpatel.intro()
